@@ -1,0 +1,46 @@
+h1{
+	color: blue;
+	font-family: 'Roboto', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+h1 {
+	color: rgba(0,0,255,0.5);
+	
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	color: rgba(0,50,255,0.5);
+	
+}
+
+h4 {
+	color: rgba(0,50,255,0.5);
+	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	padding: .5em;
+
+	box-sizing: border-box;
+}
+
+ul {
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+.italics {
+	font-style: italic;
+}
+
+#title {
+	font-size: 3em;
+}
+
+img {
+  float: right;
+}

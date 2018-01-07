@@ -1,0 +1,13 @@
+
+body{
+	color: rgba(255,255,255,0.7);
+	font-family: 'IM Fell English', serif;
+    background: linear-gradient(rgba(0,150,150,0), rgba(50,50,50,.5));
+
+}
+
+
+h2 {
+  text-align: center;
+  color: rgba(255,255,255,0.7);
+}
