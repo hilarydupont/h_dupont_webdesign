@@ -8,21 +8,31 @@ ul {
     list-style-type: none;
      padding: 14px 16px;
      color: grey;
+     margin: auto;
+     position:relative;
+    top:50px;
 }
 
 li {
     display: inline;
     padding: 8px;
-    width: 100%;
+    width: auto;
     font-family: sans-serif;
     font-size: .8rem;
+    position:relative;
+    top:50px;
+}
+
+img .logo{
+    margin:100%;
+
 }
 
 .logo{
-	width: 200px;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
+	width: 180px;
+	display: inline;
+    margin:auto;
+    position: fixed;
 
 
 }
@@ -49,6 +59,8 @@ p{
 
 .text, .feature-img{
     flex: 1;
+    position: relative;
+    top:100px;
 }
 
 .text{
@@ -58,6 +70,8 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    top:100px;
 }
 
 .text div{

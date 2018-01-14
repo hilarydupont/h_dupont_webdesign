@@ -1,0 +1,92 @@
+body{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin:0px;
+	padding:0px;
+}
+
+
+
+.one {
+		width:550px;
+		height: 300px;
+    	background: url(giphy.gif):  opacity:0.5;
+		cursor: none; 
+		
+	}
+
+
+.one:hover {
+	    background: url(giphy.gif);
+	    
+
+}
+
+.two{
+		width:550px;
+		height: 300px;
+    	background: url(giphy2.gif):  opacity:0.5;
+		cursor: none; 
+		
+}
+
+.two:hover {
+	    background: url(giphy2.gif);
+		
+}
+
+.three {
+		width:550px;
+		height: 300px;
+    	background: url(giphy.gif):  opacity:0.5;
+		cursor: none; 
+	}	
+
+
+.three:hover {
+	    background: url(giphy.gif);
+
+}
+
+.four {
+		width:550px;
+		height: 300px;
+    	background: url(giphy.gif):  opacity:0.5;
+		cursor: none; 
+		
+	}
+
+
+.four:hover {
+	    background: url(giphy.gif);
+	    
+
+}
+
+.five{
+		width:550px;
+		height: 300px;
+    	background: url(giphy2.gif):  opacity:0.5;
+		cursor: none; 
+		
+}
+
+.five:hover {
+	    background: url(giphy2.gif);
+		
+}
+
+.six {
+		width:550px;
+		height: 300px;
+    	background: url(giphy.gif):  opacity:0.5;
+		cursor: none; 
+	}	
+
+
+.six:hover {
+	    background: url(giphy.gif);
+
+}
+

@@ -1,0 +1,156 @@
+html{
+    margin-top:0;
+    padding-top:0;
+}
+body{
+    margin-top:0;
+    padding:0;
+}
+
+p{
+	line-height: 1.7;
+	font-family: "helvetica";
+	padding-bottom: 100px;
+}
+
+.cursor1{
+	height: 70px;
+}
+
+.first{
+	height:270px;
+	width:300px;
+	display: block;
+	margin:auto;
+	padding:100px 0px 100px 0px;
+}
+
+.xeroxstar{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	padding:100px 0px 100px 0px;
+  	
+}
+
+.star{
+	width: 40%;
+}
+.starpointer{
+	width:30%;
+	padding-left: 100px;
+
+}
+
+.kareicon{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	padding:100px 0px 100px 0px;
+  	cursor:grab;
+
+}
+
+.kare{
+	display: inline-block;
+	margin:auto;
+	padding: 20px;
+	width: 30%;
+}
+
+.gui{
+	display: inline-block;
+	padding: 20px;
+	width: 40%;	
+}
+
+
+.cursorup{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding:100px 0px 100px 0px;
+
+}
+
+.spinner{
+	cursor: progress;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+    width: 100%;
+    padding:100px 0px 100px 0px;
+}
+
+.tool{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding:50px 0px 100px 0px;
+
+}
+
+
+
+.title {
+	text-align: center;
+	position: fixed;
+  	width: 100%;
+ 	background-color: rgb(255,255,255);
+ 	height: 150px;
+ 	padding: 0px 0px;
+ 	font-size: 70px;
+ 	top: 0;
+ 	z-index: 10;
+	margin:auto;
+	font-family: 'VT323', monospace;
+}
+.definition{
+	padding: 0px 0px 0px 0px;
+  	text-align: center;
+  	margin:200px 200px 50px 200px;
+  	font-family: "helvetica";
+}
+
+.content{
+	line-height: 1.5;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.spin{
+	cursor: progress;
+}
+
+.grab{
+	cursor:grab;
+}
+
+table {
+	margin-left: 100px;
+	margin-right: 50px;
+	margin-bottom: 24px;
+    display: table;
+    border-spacing: 2px;
+   border: 2px solid lightgrey;
+
+}
+
+th {
+	font-family: "helvetica";
+	border: 2px solid lightgrey;
+
+}
+
+td {
+	border: 2px solid lightgrey;
+	font-family: "helvetica";
+}
+
+.text-content table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+}
