@@ -160,6 +160,23 @@ td {
     border-collapse: collapse;
 }
 
+iframe{
+	display: flex;
+   	justify-content: center;
+  	align-items: center;
+  	margin:auto;
+  	padding-bottom: 70px;
+
+}
+
+.notouch{
+	display: flex;
+	width: 1fr;
+   	justify-content: center;
+  	align-items: center;
+  	margin:auto;
+  	padding-bottom: 70px;
+}
 
 figcaption{
 	
