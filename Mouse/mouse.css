@@ -5,6 +5,7 @@ html{
 body{
     margin-top:0;
     padding:0;
+    font-family: "helvetica";
 }
 
 p{
@@ -17,16 +18,19 @@ p{
 	height: 70px;
 }
 
+
 .first{
+	display:block;
 	height:270px;
 	width:300px;
 	display: block;
 	margin:auto;
-	padding:100px 0px 100px 0px;
+	padding:50px 0px 20px 0px;
+
 }
 
 .xeroxstar{
-	display: flex;
+	display: table;
   	justify-content: center;
   	align-items: center;
   	padding:100px 0px 100px 0px;
@@ -43,10 +47,10 @@ p{
 }
 
 .kareicon{
-	display: flex;
+	display: table;
   	justify-content: center;
   	align-items: center;
-  	padding:100px 0px 100px 0px;
+  	margin:100px 0px 100px 0px;
   	cursor:grab;
 
 }
@@ -70,7 +74,7 @@ p{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    padding:100px 0px 100px 0px;
+    padding:100px 0px 20px 0px;
 
 }
 
@@ -82,6 +86,7 @@ p{
     width: 100%;
     padding:100px 0px 100px 0px;
 }
+
 
 .tool{
 	display: block;
@@ -116,8 +121,8 @@ p{
 
 .content{
 	line-height: 1.5;
-	margin-left: 200px;
-	margin-right: 200px;
+	margin-left: 300px;
+	margin-right: 300px;
 }
 
 .spin{
@@ -153,4 +158,16 @@ td {
     width: 100%;
     max-width: 100%;
     border-collapse: collapse;
+}
+
+
+figcaption{
+	
+	font-size: 10px;
+	font-family: "helvetica";
+	caption-side: bottom;
+	text-align: center;
+	color: grey;
+	margin-bottom: 70px;
+	
 }
