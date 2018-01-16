@@ -87,6 +87,29 @@ p{
     padding:100px 0px 100px 0px;
 }
 
+.features{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+  	padding:20px;
+  	width: 50%;
+ }
+
+.trail{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+  	padding:20px;
+}
+
+.notouch{		
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  	padding:20px;
+}
+
 
 .tool{
 	display: block;
@@ -96,8 +119,6 @@ p{
     padding:50px 0px 100px 0px;
 
 }
-
-
 
 .title {
 	text-align: center;
@@ -112,6 +133,7 @@ p{
 	margin:auto;
 	font-family: 'VT323', monospace;
 }
+
 .definition{
 	padding: 0px 0px 0px 0px;
   	text-align: center;
@@ -169,17 +191,8 @@ iframe{
 
 }
 
-.notouch{
-	display: flex;
-	width: 1fr;
-   	justify-content: center;
-  	align-items: center;
-  	margin:auto;
-  	padding-bottom: 70px;
-}
 
 figcaption{
-	
 	font-size: 10px;
 	font-family: "helvetica";
 	caption-side: bottom;
@@ -188,3 +201,8 @@ figcaption{
 	margin-bottom: 70px;
 	
 }
+
+.references{
+	margin:100px;
+}
+
