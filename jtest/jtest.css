@@ -1,0 +1,34 @@
+body {
+  position: relative;
+  
+  margin: 0 auto;
+  /*background-color:#FFF;*/
+
+}
+
+.block{
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  
+ 
+}
+.block1 {
+  background-size: 120%;
+  z-index: 5;
+}
+
+
+.chicken{
+	position: relative;
+	z-index: 100;
+	text-align: center;
+  	top:900px;
+}
+
+.salad{
+	position: relative;
+	z-index: 50;
+	text-align: center;
+  	top:800px;
+  }

@@ -1,0 +1,57 @@
+body {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 0;
+  height: 600px;
+
+}
+
+.block{
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+.block1 {
+  background-size: 120%;
+  z-index: 5;
+  text-align: center;
+}
+
+.fork {
+  position: relative;
+  z-index: 150; 
+
+}
+
+.waffle{
+	position: fixed;
+	z-index: 50;	
+  margin-top: 0px;
+}
+
+.eggs{
+  position: fixed;
+  z-index: 110; 
+  margin-top: 10px;
+
+  }
+
+.fruit{
+	position: fixed;
+	z-index: 100;	
+  margin-top: 120px;
+  }
+
+  .bacon{
+    position: fixed;
+    z-index: 105;
+    margin-top: 130px;
+  }
+
+  a{
+    font-family: "helvetica";
+    float: right;
+    padding: 50px;
+    color: green;
+  }

@@ -1,0 +1,27 @@
+body {
+  position: relative;
+  margin: 0 auto;
+
+}
+
+.block{
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+.block1 {
+  background-size: 120%;
+  z-index: 5;
+}
+
+
+.chicken{
+	position: relative;
+	z-index: 100;	
+}
+
+.salad{
+	position: relative;
+	z-index: 50;	
+  }

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="lunch.css">
+        <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script> 
+         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script type="text/javascript" src="lunch.js"></script>
+       
+        <title>Lunch</title>
+  
+       
+    </head>
+
+    <body>
+   	     <figure id="mouse-pointer"></figure>
+
+    	<div class="block">
+     		<div class="block1"><img src="plate.png"></div>
+     	</div>	
+            <div class="grab"><img src="grab.png" height="400px"></div>
+     	
+     		<div class="sand1"><img src="sand1.png" width="550px">
+     		</div>
+
+            <div class="sand2"><img src="sand2.png" width="550px"></div>
+
+     		<div class="chips"><img src="chips.png" height="300px"></div>
+
+             
+             <a href="../dinner.html"><p>When's dinner?</p></a>
+
+        <script>
+        $(document).mousemove(function(e) {
+            $(".grab").offset({
+        left: e.pageX,
+        top: e.pageY + 05
+                });
+            });
+
+
+        $(document).ready(function() {
+            $(".sand1").draggable();
+                });
+
+        $(document).ready(function(){
+        $(".chips").draggable();
+                });
+
+        $(document).ready(function(){
+        $(".sand2").draggable();
+                });
+
+        $(document).ready(function() {
+            $('.sand2').click(function() {
+                $(this).fadeOut('fast');
+                    });
+                });
+
+        $(document).ready(function() {
+            $('.chips').click(function() {
+                $(this).fadeOut('fast');
+                    });
+                });
+
+        $(document).ready(function() {
+            $('.sand1').click(function() {
+                $(this).fadeOut('fast');
+                    });
+                });
+
+        </script>
+
+    </body>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="breakfast.css">
+        <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script> 
+         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script type="text/javascript" src="breakfast.js"></script>
+       
+        <title>Breakfast</title>
+  
+       
+    </head>
+
+    <body>
+   	     <figure id="mouse-pointer"></figure>
+
+    	<div class="block">
+     		<div class="block1"><img src="plate.png"></div>
+     	</div>	
+
+            <div class="fork"><img src="fork.png"></div>
+     	
+     		<div class="waffle"><img src="waffle.png" width="550px"></div>
+
+            <div class="eggs"><img src="eggs.png" width="300px"></div>
+
+     		<div class="fruit"><img src="fruit.png" height="500px"></div>
+
+            <div class="bacon"><img src="bacon.png" width="500px"></div>
+
+            <a href="../Lunch/lunch.html"><p>What's for lunch?</p></a>
+
+        <script>
+        $(document).mousemove(function(e) {
+            $('.fork').offset({
+        left: e.pageX,
+        top: e.pageY + 05
+                });
+            });
+
+
+        $(document).ready(function() {
+            $(".waffle").draggable();
+                });
+
+        $(document).ready(function(){
+        $(".fruit").draggable();
+                });
+
+        $(document).ready(function(){
+        $(".bacon").draggable();
+                });
+
+        $(document).ready(function(){
+        $(".eggs").draggable();
+                });
+
+        $(document).ready(function() {
+            $('.eggs').click(function() {
+                $(this).fadeOut('fast');
+                    });
+                });
+
+        $(document).ready(function() {
+            $('.bacon').click(function() {
+                $(this).fadeOut('fast');
+                    });
+                });
+
+        $(document).ready(function() {
+            $('.waffle').click(function() {
+                $(this).fadeOut('fast');
+                    });
+                });
+
+        $(document).ready(function() {
+            $('.fruit').click(function() {
+                $(this).fadeOut('fast');
+                    });
+                });
+
+        </script>
+
+    </body>

@@ -1,0 +1,52 @@
+body {
+  position: relative;
+  margin: auto;
+  padding-top: 0;
+  height: 600px;
+
+}
+
+.block{
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+.block1 {
+  background-size: 120%;
+  z-index: 5;
+  text-align: center;
+}
+
+.grab {
+  position: relative;
+  z-index: 150; 
+
+}
+
+.sand1{
+	position: fixed;
+	z-index: 50;	
+  margin-top: 0px;
+}
+
+.sand2{
+  position: fixed;
+  z-index: 110; 
+  margin-top: 10px;
+
+  }
+
+.chips{
+	position: fixed;
+	z-index: 100;	
+  margin-top: 120px;
+  }
+
+
+  p{
+    font-family: "helvetica";
+    float: right;
+    padding: 50px;
+    color: green;
+  }
