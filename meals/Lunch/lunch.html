@@ -35,7 +35,8 @@
 
      		<div class="chips"><img src="chips.png" height="300px"></div>
 
-             
+             <div class="pickle"><img src="pickle.png" width="250px"></div>
+
              <a href="../dinner.html"><p>When's dinner?</p></a>
 
         <script>
@@ -58,6 +59,17 @@
         $(document).ready(function(){
         $(".sand2").draggable();
                 });
+
+        $(document).ready(function(){
+        $(".pickle").draggable();
+                });
+
+        $(document).ready(function() {
+            $('.pickle').click(function() {
+                $(this).fadeOut('fast');
+                    });
+                });
+
 
         $(document).ready(function() {
             $('.sand2').click(function() {

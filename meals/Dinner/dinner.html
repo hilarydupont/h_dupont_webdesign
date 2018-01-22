@@ -1,40 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+     <head>
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta charset="utf-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="/meals.css">
+        <link rel="stylesheet" type="text/css" href="dinner.css">
         <script
           src="https://code.jquery.com/jquery-3.2.1.min.js"
           integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
           crossorigin="anonymous"></script>
 
         <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script> 
-
          <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-
-         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
-        <script type="text/javascript" src="/meals.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script type="text/javascript" src="dinner.js"></script>
        
-        <title>Yummy</title>
+        <title>Dinner</title>
   
        
     </head>
 
     <body>
-   	
-    	<div class="block">
-     		<div class="block1"><img src="/plate.png"></div>
-     	</div>	
+         <figure id="mouse-pointer"></figure>
 
-     	
-     		<div class="chicken"><img src="/chicken.png" height="450px">
-     		</div>
+        <div class="block">
+            <div class="block1"><img src="plate.png"></div>
+        </div>  
+            <div class="fork"><img src="fork.png"></div>
+        
+            <div class="pasta"><img src="pasta.png" width="420px">
+            </div>
 
-     		<div class="salad"><img src="/arugula.png" height="400px"></div>
+            <div class="meatball1"><img src="meatball1.png" width="150px"></div>
 
-    
+            <div class="meatball2"><img src="meatball2.png" height="150px"></div>
+
+            <div class="meatball3"><img src="meatball3.png" height="150px"></div>
+
+            <div class="broc"><img src="broc.png" height="350px"></div>
+
+            <div class="salad"><img src="salad.png" height="350px"></div>
+             
+             <a href="../dinner.html"><p>When's dinner?</p></a>
+
+        <script>
+        $(document).mousemove(function(e) {
+            $(".fork").offset({
+        left: e.pageX,
+        top: e.pageY + 05
+                });
+            });
+
+
+        $(document).ready(function() {
+            $(".pasta").draggable();
+                });
+
+        $(document).ready(function(){
+        $(".meatball1").draggable();
+                });
+
+        $(document).ready(function(){
+        $(".meatball2").draggable();
+                });
+
+        $(document).ready(function(){
+        $(".meatball3").draggable();
+                });
+
+        $(document).ready(function(){
+        $(".broc").draggable();
+                });
+
+        $(document).ready(function(){
+        $(".salad").draggable();
+                });
+
+        $(document).ready(function() {
+            $('.pasta').click(function() {
+                $(this).fadeOut('fast');
+                    });
+                });
+
+        $(document).ready(function() {
+            $('.meatball1').click(function() {
+                $(this).fadeOut('fast');
+                    });
+                });
+
+        $(document).ready(function() {
+            $('.meatball2').click(function() {
+                $(this).fadeOut('fast');
+                    });
+                });
+
+        $(document).ready(function() {
+            $('.meatball3').click(function() {
+                $(this).fadeOut('fast');
+                    });
+                });
+
+        $(document).ready(function() {
+            $('.broc').click(function() {
+                $(this).fadeOut('fast');
+                    });
+                });
+
+        $(document).ready(function() {
+            $('.salad').click(function() {
+                $(this).fadeOut('fast');
+                    });
+                });
+
+        </script>
 
     </body>
