@@ -10,11 +10,11 @@ body {
   position: fixed;
   text-align: center;
   width: 100%;
+  z-index: -10;
 }
 
 .block1 {
   background-size: 120%;
-  z-index: 5;
   text-align: center;
 }
 
@@ -54,4 +54,5 @@ body {
     float: right;
     padding: 50px;
     color: green;
+    z-index: 250px;
   }
