@@ -1,34 +1,48 @@
+html,
 body {
+  background: beige;
+  color: #fff;
+  height: 100%;
+  margin: 0;
+  min-height: 100%;
+  overflow: hidden;
   position: relative;
-  
+}
+.marquee {
+  display: block;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+svg {
+  display: block;
+}
+.logo {
+  fill: #fff;
+}
+
+p{
+  font-family: 'Molle', cursive;
+  color:rgb(27, 252, 54);
+  padding: 20px;
+  font-size: 50px;
+  margin:0px;
+}
+
+.clicked{
+  color:rgb(38, 118, 145);
+}
+
+
+table {
   margin: 0 auto;
-  /*background-color:#FFF;*/
-
+  border-collapse: collapse;
+  background: rgb(255, 59, 10);
+}
+td {
+    width: 200px; height: 200px;
 }
 
-.block{
-  position: fixed;
-  text-align: center;
-  width: 100%;
-  
- 
+tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
+  background: rgb(185, 181, 146);
 }
-.block1 {
-  background-size: 120%;
-  z-index: 5;
-}
-
-
-.chicken{
-	position: relative;
-	z-index: 100;
-	text-align: center;
-  	top:900px;
-}
-
-.salad{
-	position: relative;
-	z-index: 50;
-	text-align: center;
-  	top:800px;
-  }
