@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'windsor_mt_stdregular';
+    src: url('windsormtstd-webfont.woff2') format('woff2'),
+         url('windsormtstd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html,
 body {
   background: beige;
@@ -22,7 +31,7 @@ svg {
 }
 
 p{
-  font-family: 'Molle', cursive;
+  font-family: 'windsor_mt_stdregular';
   color:rgb(27, 252, 54);
   padding: 20px;
   font-size: 50px;
@@ -40,7 +49,7 @@ table {
   background: rgb(255, 59, 10);
 }
 td {
-    width: 200px; height: 200px;
+    width: 1750px; height: 175px;
 }
 
 tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {

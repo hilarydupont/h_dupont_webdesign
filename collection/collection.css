@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'hwt_republic_gothicoutline';
+    src: url('hwtrepublicgothicoutline-webfont.woff2') format('woff2'),
+         url('hwtrepublicgothicoutline-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'hwt_republic_gothicsolid';
+    src: url('hwtrepublicgothicsolid-webfont.woff2') format('woff2'),
+         url('hwtrepublicgothicsolid-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html,
+body {
+  background: beige;
+  color: #fff;
+  margin: 0;
+  position: relative;
+}
+
+.marquee {
+  display: block;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+svg {
+  display: block;
+}
+
+.logo {
+  fill: #fff;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;  
+}
+
+a:link    {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+}
+
+.project{
+  font-family:'hwt_republic_gothicoutline';
+  font-size: 45px;
+  color:rgb(126, 46, 73);
+  padding: 10px;
+  margin: 10px;
+  border-style: solid;
+  border-radius: 20px;
+  height: 300px;
+  width: 300px;
+
+}
+
+.title{
+  font-family: 'hwt_republic_gothicoutline';
+  color:rgb(38, 118, 145);
+  padding: 20px;
+  font-size: 45px;
+  margin:0px;
+}
+
+.clicked{
+  font-family: 'hwt_republic_gothicsolid';
+  color:rgb(27, 252, 54);
+}
+
+.hovering{
+  font-family: 'hwt_republic_gothicsolid';
+  font-size: 45px;
+  color:beige;
+  background-color: rgb(126, 46, 73);
+  padding: 10px;
+  margin: 10px;
+  border-style: solid;
+  border-radius: 20px;
+  height: 300px;
+  width: 300px;
+}
+
+
