@@ -9,7 +9,7 @@
 
 html,
 body {
-  background: beige;
+  background-color: beige;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -17,41 +17,76 @@ body {
   overflow: hidden;
   position: relative;
 }
+
+
+.menu{
+  position: relative;
+  display: inline-block;
+}
+
+.menu-content {
+    display: none;
+    position: absolute;
+    background-color: none;
+    padding: 10px;
+    z-index: 1;
+}
+
+.menu:hover .menu-content {
+    display: block;
+  }
+
+p:hover {
+    color:rgb(27, 252, 54);
+    padding:20px;
+  }
+
 .marquee {
   display: block;
   left: 0;
   position: absolute;
   top: 0;
 }
+
 svg {
   display: block;
 }
+
 .logo {
   fill: #fff;
 }
 
 p{
+  color:rgb(38, 118, 145);
   font-family: 'windsor_mt_stdregular';
-  color:rgb(27, 252, 54);
   padding: 20px;
-  font-size: 50px;
+  font-size: 30px;
   margin:0px;
 }
 
-.clicked{
-  color:rgb(38, 118, 145);
+
+.stripes {
+  width: 100%;
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: repeat(30, 1fr);
+  grid-template-rows: repeat(1, 100%);
+  grid-auto-flow: row;
+  position: fixed;
+  bottom: 0px;
+  top: 600px;
+  
 }
 
-
-table {
-  margin: 0 auto;
-  border-collapse: collapse;
+.box {
   background: rgb(255, 59, 10);
-}
-td {
-    width: 1750px; height: 175px;
+  border-radius: 0px;
+  padding:20px;
+  font-size: 30px;
 }
 
-tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
+.box:nth-child(odd){
   background: rgb(185, 181, 146);
 }
+
+

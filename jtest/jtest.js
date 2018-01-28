@@ -1,8 +1,29 @@
 $(function() {  
-    $('.title').click(function(){
-  $(this).toggleClass('clicked');
+    $('.box:nth-child(even)').hover(function(){
+  $(this).css('background-color','rgb(2, 249, 159)');
 });
   });
+
+
+
+//$(function() {  
+  //  $('.marquee').click(function(){
+ // $('body').toggleClass(".back");
+//});
+ // });
+
+
+
+//var hue = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+
+
+//$(function() {
+ // $('.marquee').toggle(function() {
+  //  $("body").css('background-color',hue);
+
+ //  });
+ // });
+
 
 
 //Tells the circle to bounce off walls and change color:
@@ -77,8 +98,13 @@ $(document).ready( function() {
   $('.marquee').marqueeify({
     speed: 100,
     bumpEdge: function () {
-      var newColor = "hsl(" + Math.floor(Math.random()*360) + ", 100%, 50%)";
+      var newColor = "hsl(" + Math.floor(Math.random()*360) + ", 200%, 50%)";
       $('.marquee .logo').css('fill', newColor);
     }
   });
 });
+
+
+
+
+
