@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'hwt_republic_gothicoutline';
-    src: url('hwtrepublicgothicoutline-webfont.woff2') format('woff2'),
-         url('hwtrepublicgothicoutline-webfont.woff') format('woff');
+    src: url('fonts/hwtrepublicgothicoutline-webfont.woff2') format('woff2'),
+         url('fonts/hwtrepublicgothicoutline-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -10,8 +10,8 @@
 
 @font-face {
     font-family: 'hwt_republic_gothicsolid';
-    src: url('hwtrepublicgothicsolid-webfont.woff2') format('woff2'),
-         url('hwtrepublicgothicsolid-webfont.woff') format('woff');
+    src: url('fonts/hwtrepublicgothicsolid-webfont.woff2') format('woff2'),
+         url('fonts/hwtrepublicgothicsolid-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 

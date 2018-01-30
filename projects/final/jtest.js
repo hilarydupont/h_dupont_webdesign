@@ -1,30 +1,15 @@
 $(function() {  
     $('.box:nth-child(even)').hover(function(){
-  $(this).css('background-color','rgb(2, 249, 159)');
+  $(this).css('background-color','rgba(2, 249, 159, 0.5)');
 });
   });
 
 
-
 //$(function() {  
-  //  $('.marquee').click(function(){
- // $('body').toggleClass(".back");
+ //   $('.marquee').click(function(){
+ // $('body').css('background-color','rgb(100, 152, 154)');
 //});
  // });
-
-
-
-//var hue = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
-
-
-//$(function() {
- // $('.marquee').toggle(function() {
-  //  $("body").css('background-color',hue);
-
- //  });
- // });
-
-
 
 //Tells the circle to bounce off walls and change color:
 
@@ -101,6 +86,16 @@ $(document).ready( function() {
       var newColor = "hsl(" + Math.floor(Math.random()*360) + ", 200%, 50%)";
       $('.marquee .logo').css('fill', newColor);
     }
+  });
+
+  $('.box').click(function(){
+  	$(this).toggleClass('marquee').marqueeify({
+    speed: 50,
+    bumpEdge: function () {
+      var newColor = "hsl(" + Math.floor(Math.random()*360) + ", 200%, 50%)";
+      $('.marquee .logo').css('fill', newColor);
+    	}
+	});
   });
 });
 
