@@ -1,8 +1,26 @@
-$(function() {  
-    $('.box:nth-child(even)').hover(function(){
-  $(this).css('background-color','rgba(2, 249, 159, 0.5)');
+
+$(document).ready( function() {
+  $('.surfposterimage').hide(0);
+
+$('.surfposter-button').click(function(){
+ 
+  $('.surfposterimage').fadeIn(300);
+  
 });
-  });
+$('.surfposterimage span').click(function() {
+ 
+  $('.surfposterimage').hide(0);
+});
+});
+
+
+
+
+//$(function() {  
+  //  $('.box:nth-child(even)').hover(function(){
+ // $(this).css('background-color','rgba(2, 249, 159, 0.5)');
+//});
+//  });
 
 
 //$(function() {  
@@ -12,6 +30,8 @@ $(function() {
  // });
 
 //Tells the circle to bounce off walls and change color:
+
+/*
 
 (function ($, window, undefined) {
   $.fn.marqueeify = function (options) {
@@ -100,6 +120,6 @@ $(document).ready( function() {
 });
 
 
-
+*/
 
 

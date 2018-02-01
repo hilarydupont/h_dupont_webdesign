@@ -1,0 +1,19 @@
+body{
+	background-color: beige;
+}
+
+.images{
+
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(1, 200px);
+	margin-left: 200px;
+	margin-top: 50px;
+}
+
+img{
+	margin:20px;
+	border-style: solid;
+	border-radius: 20px;
+	color:rgb(126, 46, 73);
+}

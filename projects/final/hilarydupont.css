@@ -7,9 +7,18 @@
 
 }
 
+@font-face {
+    font-family: 'itc_souvenirmedium';
+    src: url('font/souvenir-medium-webfont.woff2') format('woff2'),
+         url('font/souvenir-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html,
 body {
-  background-color: rgb(252, 248, 239);	
+  background-color: rgba(186, 176, 154, 0.2);	
   color: #fff;
   height: 100%;
   margin: 0;
@@ -19,51 +28,40 @@ body {
 }
 
 
-
 .menu{
   position: relative;
   display: inline-block;
+  line-height: 60%;
 }
-
+/*
 .menu-content {
     display: none;
     position: absolute;
     background-color: none;
-    padding: 10px;
+    padding: 0px;
     z-index: 1;
 }
 
 .menu:hover .menu-content {
     display: block;
-  }
 
+  }
+*/
 p:hover {
     color:rgb(27, 252, 54);
     padding:20px;
   }
 
-.marquee {
-  display: block;
-  left: 0;
-  position: absolute;
-  top: 0;
-}
 
-svg {
-  display: block;
-}
-
-.logo {
-  fill: #fff;
-}
 
 p{
-  color:rgb(38, 118, 145);
-  font-family: 'windsor_mt_stdregular';
+  color:white;
+  font-family: 'itc_souvenirmedium';
   padding: 20px;
   font-size: 30px;
   margin:0px;
 }
+
 
 
 .stripes {
@@ -75,14 +73,14 @@ p{
   grid-auto-flow: row;
   position: fixed;
   bottom: 0px;
-  top: 25%;
+  top: 10%;
   
 }
 
 .box {
-  width: 100px;
-  height: 100px;
-  background: rgba(243, 121, 247,0.5);
+  width: 1fr;
+  height: 1fr;
+  background: rgb(186, 176, 154);
   border-radius: 0px;
   padding:20px;
   font-size: 30px;
@@ -92,4 +90,22 @@ p{
   background: rgba(229, 203, 4,1);
 }
 
+.box:hover{
+  width: 200px;
+  height: 200px;
 
+}
+
+.surfposterimage{
+  z-index: 50;
+}
+
+span {
+  border-radius:3em;
+  margin-left:95%;
+  color: black;
+  background: white;
+  font-size:1.25em;
+  padding:.4em .7em;
+  cursor:pointer;
+}
