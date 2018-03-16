@@ -1,0 +1,20 @@
+
+video, canvas {
+    margin-left: 380px;
+    margin-top: 120px;
+    position: absolute;
+  }
+
+  body{
+  	background: beige;
+  }
+
+button{
+	background:black;
+	color: white;
+	position: absolute;
+	top:600px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%)
+}

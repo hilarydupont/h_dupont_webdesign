@@ -1,0 +1,231 @@
+
+
+
+#video1{
+  display: none;
+}
+
+#video2{
+  display: none;
+}
+
+#video3{
+  display: none;
+}
+
+#video4{
+  display: none;
+
+}
+
+#video5{
+  display: none;
+  position: absolute;
+  left: 560px;
+  top: 320px;
+
+}
+
+#video6{
+  display: none;
+  position: absolute;
+  left: 670px;
+  top: 420px;
+  
+}
+
+#video7{
+  display: none;
+  position: absolute;
+  left: 730px;
+  top: 450px; 
+}
+
+#video8{
+  display: none;
+  position: absolute;
+  left: 780px;
+  top: 220px;
+}
+
+#song9{
+  display: none;
+  position: absolute;
+  left: 10px;
+  top: 700px;
+}
+
+#song10{
+  display: none;
+  position: absolute;
+  left: 300px;
+  top: 700px;
+}
+
+#song11{
+  display: none;
+  position: absolute;
+  left: 600px;
+  top: 700px;
+}
+
+#song12{
+  display: none;
+  position: absolute;
+  left: 900px;
+  top: 700px;
+}
+
+#song13{
+  display: none;
+  position: absolute;
+  left: 1100px;
+  top: 700px;
+}
+
+img{
+  width: 30px;
+  display: block;
+  float:right;
+}
+
+
+
+h2{
+  font-family: helvetica;
+  position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 45px;
+}
+
+p{
+  font-family: courier;
+}
+
+html { 
+   background: url(map.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background: yellow;
+  color: black;
+}
+
+
+  .btn:hover {
+     -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+  }
+
+
+.pin1 {
+    position: absolute;
+    width: 30px;
+    height: auto;
+    top: 39%;
+    left: 20%;
+  }
+
+.pin2 {
+    position: absolute;
+    width: 30px;
+    height: auto;
+    top: 35%;
+    left: 30%;
+  }
+
+
+  .pin3 {
+    position: absolute;
+    width: 30px;
+    height: auto;
+    top: 35%;
+    left: 48%;
+  }
+
+  .pin4 {
+    position: absolute;
+    width: 30px;
+    height: auto;
+    top: 25%;
+    left: 36%;
+  }
+
+   .pin5 {
+    position: absolute;
+    width: 30px;
+    height: auto;
+    top: 37%;
+    left: 56%;
+  }
+
+  .pin6 {
+    position: absolute;
+    height: auto;
+    top: 57%;
+    left: 81%;
+  }
+
+   .pin7 {
+    position: absolute;
+    width: 30px;
+    height: auto;
+    top: 69%;
+    left: 89%;
+  }
+
+  .pin8 {
+    position: absolute;
+    width: 30px;
+    height: auto;
+    top: 67%;
+    left: 90%;
+  }
+
+
+  .pin9 {
+    position: absolute;
+    width: 30px;
+    height: auto;
+    top: 43%;
+    left: 11%;
+  }
+
+  .pin10 {
+    position: absolute;
+    width: 30px;
+    height: auto;
+    top: 40%;
+    left: 23%;
+  }
+
+
+  .pin11 {
+    position: absolute;
+    width: 30px;
+    height: auto;
+    top: 30%;
+    left: 33%;
+  }
+
+  .pin12 {
+    position: absolute;
+    width: 30px;
+    height: auto;
+    top: 27%;
+    left: 39%;
+  }
+
+  .pin13 {
+    position: absolute;
+    width: 30px;
+    height: auto;
+    top: 67%;
+    left: 89%;
+  }
