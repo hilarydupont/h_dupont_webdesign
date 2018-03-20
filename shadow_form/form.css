@@ -1,0 +1,222 @@
+/**
+ * Parallax styles
+ *
+ * All aesthetic styles are at the bottom for the benefit of better understanding the demo.
+ */
+html {
+  /* Give our document a fake height for demo purposes. */
+  height: 3500px;
+  /* We must set out root `font-size` to 0 to prevent our parallax margins being calculated */
+  font-size: 0;
+  }
+
+body {
+  /* Reset the `font-size` to 16px/1em/100% */
+  font-size: 30px;
+}
+
+/* Fix our parallax elements in position */
+.parallax {
+  position: fixed;
+  }
+
+/**
+ * Position our elements
+ *
+ * Firstly we set our element position using `top`, `right`, `bottom`, `left`, then set your parallax movement using `margin` and `rem`.
+ *
+ * In this demo our 'base factor' is 50 (see JavaScript). Our 'factor' calculation never exceeds this number (when the viewport is fully scrolled), which means our `rem` calculations are based on this number.
+ *
+ * Example:
+ *
+ * If I set my `top` to `200px` and want this element to shift up by `400px`, our `rem` value is 400/10, or `-40em` (using negative margins to shift upwards).
+ */
+h1 {
+  top: 625px;
+  margin-top: -3rem;
+  z-index: -1;
+  font-size: 30px;
+}
+
+.niz{
+  top: 585px;
+  margin-top: -6rem;
+  margin-left: 30%;
+  z-index: 15;
+  width:20%;
+
+}
+
+.dream{
+  top: 680px;
+  margin-top: -20rem;
+  z-index: -1;
+  margin-left:05;
+  width:50%;
+}
+
+.dream2{
+  top: 680px;
+  margin-top: -30rem;
+  z-index: -1;
+  margin-left:05;
+  width:50%;
+  opacity: .5;
+}
+
+.ccc{
+  top: 625px;
+  margin-top: -09rem;
+  z-index: 25;
+  margin-left:5%;
+}
+
+.box {
+  top: -400px;
+  /* Positive margin, so it appears from above */
+  margin-top: 19rem;
+  /* Center and pad */
+  left: 50%;
+  margin-left: -27%;
+  padding: 2%;
+  width:5%;
+}
+.box3 {
+  top: -400px;
+  /* Positive margin, so it appears from above */
+  margin-top: 20rem;
+  /* Center and pad */
+  left: 50%;
+  margin-left: -27%;
+  padding: 2%;
+  width:5%;
+  opacity: 0.09;
+}
+
+.box2{
+  top: -440px;
+  /* Positive margin, so it appears from above */
+  margin-top: 20rem;
+  /* Center and pad */
+  left: 70%;
+  margin-left: -27%;
+  padding: 2%;
+  width: 50%;
+}
+
+
+.skyline {
+  top: 240px;
+   /* Positive margin, so it appears from above */
+  margin-top: 19rem;
+ 
+  left: 8%;
+}
+
+.line {
+  top: 40px;
+   /* Positive margin, so it appears from above */
+  margin-top: 05rem;
+ width: 500px;
+  left: 55%;
+}
+
+.line2 {
+  top: 40px;
+   /* Positive margin, so it appears from above */
+  margin-top: 030rem;
+ width: 500px;
+  left: 55%;
+  opacity: 0.5;
+}
+
+.blimp {
+  top: 800px;
+  margin-top: -55rem;
+  left: 24%;
+  width:100px;
+}
+
+.gherkin {
+  top: 800px;
+  margin-top: -20rem;
+  left: 40%;
+  z-index: 10;
+  
+}
+.shade{
+  top: 500px;
+  margin-top: -05rem;
+  left: 40%;
+  z-index: 10;
+}
+
+.purp{
+  top: 150px;
+  margin-top: -25rem;
+  left: 20%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.bull {
+  top: 360px;
+  margin-top: -47rem;
+  left: 56%;
+}
+
+.dino {
+  top: 260px;
+  margin-top: -33rem;
+  left: 55%;
+  width: 700px;
+}
+
+
+/**
+ * Demo aesthetics
+ */
+
+html {
+  background-size: 100%;
+  background-image: linear-gradient(to bottom left, #506d50 30%, #a591ad 100%);
+  background-attachment: fixed;
+  font-family: 'times new roman';
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(0, 0, 255,1);
+}
+
+
+
+a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+a:hover {
+  color: magenta;
+}
+
+h1 {
+  width: 100%;
+  font font-family: 'times new roman';
+  text-align: left;
+  margin-left: 50px;
+
+}
+
+p {
+  margin: 0 0 1.5em;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+img {
+  width: 30%;
+  
+}
+
